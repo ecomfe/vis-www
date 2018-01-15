@@ -2,8 +2,8 @@
 title: 柱状图
 subtitle: Bar Chart
 tags:
-    - 柱状
-    - 比较
+	- 柱状
+	- 比较
 	- 条形
 ---
 
