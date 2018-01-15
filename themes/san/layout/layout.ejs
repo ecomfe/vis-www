@@ -1,0 +1,13 @@
+<%- partial('_partial/head') %>
+  <div class="body-inner">
+  <%- partial('_partial/header') %>
+  <%- body %>
+  <%- partial('_partial/footer') %>
+  <%- partial('_partial/mobilenav') %>
+  </div>
+  <script src="<%- url_for('js/jquery-1.10.2.js') %>"></script>
+  <script src="<%- url_for('js/layout_control.js') %>"></script>
+  <script src="<%- url_for('js/mobile_nav.js') %>"></script>
+
+</body>
+</html>

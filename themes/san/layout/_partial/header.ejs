@@ -1,0 +1,72 @@
+<header>
+ <div class="ynavigation">
+             
+
+        <a class="ynavigation-logo" href="<%- url_for('') %>" class="logo-s-link">
+                   <p><b>百度数据可视化实验室</b></p>
+
+        </a>
+
+            <div class="ynavigation-content">
+                <div class="navigation-content-btn">
+                    <a href="#" class="btn-white">
+                    <img src="<%- url_for('img/github.svg') %>">
+                    <span>Github</span>
+                    </a>
+                </div>
+                        <nav>
+                            <ul class="yprimary-nav">
+                            <li><a class="ynav-link-dec <%if(page.path==''){%>selected<%}%>" href="<%- url_for('') %>">首页</a></li>
+                             <li><a class="ynav-link-dec <%if(page.path.indexOf('chartusage/')==0 || page.path.indexOf('chartcomponent/') ==0|| page.path.indexOf('chartcolor/') ==0){%>selected<%}%>" href="<%- url_for('chartusage/pie/')%>">规范</a></li>
+                              <li>
+                              <div class="ydropdown">
+                              <a class="ydropbtn">产品</a>
+                               <svg class="ysub-arrow" width="9" height="11" viewBox="0 0 9 5">
+                <polyline  fill="none" stroke="#7E8696" points=".5 .5 4.5 4.5 8.5 .5"></polyline></svg>
+
+                              <div class="ydropdown-content">
+                                <a href="https://eagle.cool/macOS" target="_blank">百度图说</a>
+                                <a href="#" target="_blank">Echarts Gallery</a>
+                                <a href="#" target="_blank">Echarts</a>
+                                <a href="#" target="_blank">Echarts GL</a>
+                                <a href="#" target="_blank">ZRender</a>
+                                <a href="#" target="_blank">Qteck</a>
+                              </div>
+                            </div>                              
+                             </li>
+                                
+                             <li>
+                              <div class="ydropdown">
+                              <a class="ydropbtn">教育</a>
+                              <svg class="ysub-arrow" width="9" height="11" viewBox="0 0 9 5">
+                <polyline fill="none" stroke="#7E8696" points=".5 .5 4.5 4.5 8.5 .5"></polyline></svg>
+                              <div class="ydropdown-content">
+                                <a href="#" target="_blank">可视化专栏</a>
+                                <a href="#" target="_blank">ECharts & WebVR学院</a>
+                                <a href="<%- url_for('paper/paper/')%>" target="_blank">论文</a>
+                              </div>
+                            </div>                              
+                             </li>
+                            
+                            </ul>
+                            
+                        </nav>
+                        
+            </div>
+        </div>
+    
+
+</header>
+
+<!-- 控制搜索的 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript">
+    var Input = document.getElementById('san-query-input');
+    var Icon = document.getElementsByClassName('icon')[0];
+    docsearch({
+        apiKey: '1c360e1f2503c4fa59ea3d28e3b8f6b3',
+        indexName: 'san',
+        inputSelector: '#san-query-input',
+        debug: false // Set debug to true if you want to inspect the dropdown
+    });
+</script>

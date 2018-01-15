@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="52px" viewBox="0 0 45 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="148.691669%" y1="-31.6967906%" x2="0%" y2="122.816873%" id="linearGradient-1">
+            <stop stop-color="#FF8780" offset="0%"></stop>
+            <stop stop-color="#FD4E4C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1030.000000, -819.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(191.000000, 781.000000)">
+                <g id="Group-4" transform="translate(839.000000, 38.000000)">
+                    <path d="M21,3.55271368e-15 C9.40202025,3.55271368e-15 0,9.8497355 0,22 C0,34.1502645 9.40202025,44 21,44 L21,33 C15.2010101,33 10.5,28.0751322 10.5,22 C10.5,15.9248678 15.2010101,11 21,11 L21,-6.66133815e-16 Z" id="Combined-Shape" fill="#FD5D59" opacity="0.207147854"></path>
+                    <path d="M39.981187,35.9880822 C38.7329191,37.5017103 37.2861955,38.8455843 35.6808422,39.9798785 L23,51.7508737 L23,44.0007782 L23,33 C29.0751322,33 34,28.0751322 34,22 C34,15.9248678 29.0751322,11 23,11 L23,-1.11022302e-15 C35.1502645,0 45,9.8497355 45,22 C45,27.3129638 43.1166683,32.1860519 39.981187,35.9880822 L23.0016494,43.9999999 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

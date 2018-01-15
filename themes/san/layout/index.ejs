@@ -1,0 +1,367 @@
+layout: false
+---
+
+<%- partial('_partial/head') %>
+
+<body>
+<div class="body-inner">
+   <section class="home-landscape">
+   <div class="float background-img">
+     <img src="img/back.png">
+   </div>
+        <div class="navigation">
+             <div class="navigation-logo">
+                 <p><b>百度数据可视化实验室</b></p>
+            </div>
+            <div class="navigation-content">
+                <div class="navigation-content-btn">
+                    <a href="https://github.com/ecomfe/echarts" class="btn-white" target="_blank">
+                    <img src="img/github.svg">
+                    <span>Github</span>
+                    </a>
+                </div>
+                        <nav>
+                            <ul class="primary-nav">
+                            <li><a class="nav-link-dec current" href="<%- url_for('') %>">首页</a></li>
+
+                             <li><a class="nav-link-dec" href="<%- url_for('chartusage/line/')%>">规范</a></li>
+                              <li>
+                              <div class="dropdown">
+                              <a class="dropbtn">产品</a>
+                               <svg class="sub-arrow" width="9" height="11" viewBox="0 0 9 5">
+                <polyline  fill="none" stroke="#7E8696" points=".5 .5 4.5 4.5 8.5 .5"></polyline></svg>
+
+                              <div class="dropdown-content">
+                                <a href="https://eagle.cool/macOS" target="_blank"><p>百度图说</p></a>
+                                <a href="#" target="_blank"><p>Echarts Gallery</p></a>
+                                <a href="#" target="_blank"><p>Echarts</p></a>
+                                <a href="#" target="_blank"><p>Echarts GL</p></a>
+                                <a href="#" target="_blank"><p>ZRender</p></a>
+                                <a href="#" target="_blank"><p>Qteck</p></a>
+                              </div>
+                            </div>                              
+                             </li>
+                                
+                             <li>
+                              <div class="dropdown">
+                              <a class="dropbtn">教育</a>
+                              <svg class="sub-arrow" width="9" height="11" viewBox="0 0 9 5">
+                <polyline fill="none" stroke="#7E8696" points=".5 .5 4.5 4.5 8.5 .5"></polyline></svg>
+                              <div class="dropdown-content">
+                                <a href="https://zhuanlan.zhihu.com/rendering-fantasy" target="_blank"><p>可视化专栏</p></a>
+                                <a href="http://ife.baidu.com/college/detail/id/6" target="_blank"><p>ECharts & WebVR学院</p></a>
+                                <!-- <a href="<%- url_for('paper/paper/')%>" target="_blank"><p>论文</p></a> -->
+                              </div>
+                            </div>                              
+                             </li>
+                            
+                            </ul>
+                            
+                        </nav>
+                        
+            </div>
+        </div>
+        
+        <div class="home-landscape-content">
+            <div class="home-landscape-content-left">
+            <h1>百度数据可视化实验室</h1>
+            <p class="home-intro">Baidu Data Visualization Studio</p>
+            </div>
+
+            <div class="home-landscape-content-right">
+            <!-- <img src="img/picone.png"> -->
+              <div id="bm"><p></p></div>
+            </div> 
+                       
+        </div>
+      <!--    <div class="ellipse">
+        <img src="img/ellipse.svg">
+        </div>   -->
+  
+    </section>
+
+    
+
+    <section class="home-product">
+        <div class="home-product-content">
+            <div class="home-product-top">
+               <!--  <a class="more-btn product-btn" href="#">查看全部</a>  -->
+                <div class="intro-content intro-product-content">
+                        <img class="h5-decoration" src="img/h5product.png">
+                        <h5>可视化产品 矩阵</h5>
+                        <p>基于基础的可视化规范，依托ZRender、ClayGL基础库，实现了强大的ECharts、ECharts GL。以ECharts为核心，整合MapV等完善的数据可视化产品，并针对各类场景、各种需求开发了图说、Gallery、插件等完善的应用产品。从基础到框架到上层应用，可扎实、强大、便捷的满足一切数据可视化需求。</p>
+                    </div>
+            </div>
+            <ul class="product-column-five">
+                <li><a class="product-link" href="">
+                <img src="img/product1.svg">
+                <h6 class="product-title">图说</h6><p>零编程基础可在线编辑图表的智能拖拽式操作平台</p></a></li>
+                <li><a class="product-link" href="">
+                <img src="img/product2.svg">
+                <h6 class="product-title">Gallery</h6><p>可视化案例展示平台，提供在线编辑和分享功能</p></a></li>
+                <li><a class="product-link" href="">
+                <img src="img/product2.svg">
+                <h6 class="product-title">ECharts扩展</h6><p>ECharts扩展插件，提供更丰富的图表类型</p></a></li>
+                <li><a class="product-link" href="">
+                <img src="img/product4.svg">
+                <h6 class="product-title">PPT 插件</h6><p>可直接在PPT内使用ECharts图表的插件</p></a></li>
+                <li><a class="product-link" href="">
+                <img src="img/product4.svg">
+                <h6 class="product-title">Visual DL</h6><p>服务于深度学习平台，提供可视化模型及参数</p></a></li>
+            </ul>   
+            <ul class="product-column-three">
+                <li class="product-column-three-li">
+                <a class="product-link" href="">
+                <img src="img/product5.svg">
+                <h6 class="product-title">Echarts</h6><p>一个纯 Javascript的图表库，提供直观，生动，可交互，可高度个性化定制的数据可视化图表。</p></a>
+                </li>
+                <li class="product-column-three-li"><a class="product-link" href="">
+                <img src="img/product2.svg">
+                <h6 class="product-title">Echarts GL</h6><p>强大的高性能 WebGL 可视化解决方案，艺术化的输出满足你大屏、VR、AR 的高质量展示需求</p></a></li>
+                <li class="product-column-three-li product-column-last"><a class="product-link" href="">
+                <img src="img/product1.svg">
+                <h6 class="product-title">MapV</h6><p>一款基于百度地图的大数据可视化工具</p></a></li>
+            </ul>
+            <ul class="product-column-two">
+                <li><a class="product-link" href="">
+                <img src="img/product1.svg">
+                <h6 class="product-title">ZRender</h6><p>二维绘图引擎，提供 Canvas、SVG、VML 等多种渲染方式,提供 Canvas、SVG、VML 等多种渲染方式</p></a></li>
+                <li><a class="product-link" href="">
+                <img src="img/product4.svg">
+                <h6 class="product-title">ClayGL</h6><p>高性能WebGL框架，可快速搭建可视化、三维模型展示、交互式广告等Web3D的应用,提供 Canvas、SVG、VML 等多种渲染方式</p></a></li>
+            </ul>   
+            <ul class="product-column-one">
+                <li><a class="product-link" href="<%- url_for('chartusage/line/')%>">
+                <img src="img/product3.svg">
+                <h6 class="product-title">可视化规范</h6><p>提供数据可视化设计的基本原则，重点解决用户关于如何选择正确的图表，如何设计图表的疑惑。通过图表使用建议、适合的数据类型、设计方案等，让你更加合理的使用正确的图表并获得最佳的展示效果。</p></a></li>
+            </ul>  
+        </div>                                  
+    </section>
+
+    <section class="home-standard">
+        <div class="home-standard-content">
+            <div class="home-standard-top">
+                    <div class="intro-content">     
+                    <img class="h5-decoration" src="img/h5standard.png">
+                            <h5>可视化图表规范</h5>
+                            <p>提供数据可视化设计的基本原则，重点解决用户关于如何选择正确的图表，如何设计图表的疑惑。通过图表使用建议、适合的数据类型、设计方案等，让你更加合理的使用正确的图表并获得最佳的展示效果。</p>
+                        </div>
+                        <a href="<%- url_for('chartusage/line/')%>" class="more-btn standard-btn">阅读全部</a> 
+            </div>
+            <div class="home-standard-text">
+                <div class="home-standard-text-one">
+                    <h5 class="home-standard-memo">图表的使用方法</h5>
+                    <p class="home-standard-title">饼图</p>
+                    <p class="home-standard-paragraph">主要用于展现不同类目数值相对于总数的占比情况。每个分块(扇区)代表该数值 在总数的占比大小,所有分块占比总和为 100%</p>
+                    <a class="standard-read-btn" href="<%- url_for('chartusage/pie/')%>">阅读</a>
+                </div>
+                <div class="home-standard-text-one">
+                    <h5 class="home-standard-memo">图表的使用方法</h5>
+                    <p class="home-standard-title">折线图</p>
+                    <p class="home-standard-paragraph">折线图主要用来展示数据相随着时间推移的趋势或变化。折线图非常适合用于展示连续的二维数据，如某网站访问人数或商品销量价格的波动。</p>
+                    <a class="standard-read-btn" href="<%- url_for('chartusage/line/')%>">阅读</a>
+                </div>  
+                <div class="home-standard-text-one">
+                    <h5 class="home-standard-memo">可视化产品设计</h5>
+                    <p class="home-standard-title">图表配色</p>
+                    <p class="home-standard-paragraph">在设计数据图表的时候，颜色是组成整个图表外观最为重要的元素，选用正确合理的颜色可以让图表现得更加专业、美观。</p>
+                    <a class="standard-read-btn" href="<%- url_for('chartcolor/color/')%>">阅读</a>
+                </div> 
+            </div>
+        </div>   
+
+    </section>
+
+<section class="home-learn">
+    <div class="home-learn-content">
+        <div class="home-learn-top">
+            <img class="h5-decoration" src="img/h5learn.png">
+            <h5 class="">更多线上学习材料</h5>
+            <!-- <a class="more-btn learn-btn" href="<%- url_for('paper/paper/')%>" target="_blank">了解更多</a>  -->
+        </div>
+    <div class="home-learn-text">
+         <div class="home-learn-text-one">
+                <a class="home-learn-text-one-link" href="http://ife.baidu.com/college/detail/id/6" target="_blank">
+                <img src="img/learn1.jpg" class="learn-picture">
+                <h5 class="learn-title">ECharts & WebVR学院</h5>
+                <p>在这里大家可以学到如何基于ECharts将手上的数据制作成美观的可视化作品，以及如何使用WebVR制作VR展现</p> 
+                </a>    
+        </div>
+        <div class="home-learn-text-one">
+                <a class="home-learn-text-one-link" href="https://zhuanlan.zhihu.com/rendering-fantasy" target="_blank">
+                <img src="img/learn2.jpg" class="learn-picture">
+                <h5 class="learn-title">漂亮的不像实力派的可视化</h5>
+                <p>Echarts团队出品、这个专栏告诉你那些看起来特别酷的东西是怎么实现的。</p>
+                </a>
+        </div>
+        <div class="home-learn-text-one">
+            <ul>
+                 <li><a href="http://www.cad.zju.edu.cn/home/vagblog/?p=5921" target="_blank">
+                    <div class="paper-img">
+                       <img src="img/paper1.jpg" width="74px">
+                    </div>
+                    <div class="paper-text">
+                         <h5>解析可视化中的对比分析任务</h5>
+                         <p>“比较”或“对比”（comparison）是数据分析中最主要的任务之一，例如比较两张CT扫描结果，对比多次天气预报模型的预测结果...</p>
+                    </div>
+                 </a></li>
+                 <li><a href="http://jackieanxis.coding.me/2017/09/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%96%B9%E6%B3%95%E6%9D%A5%E5%B8%AE%E5%8A%A9%E8%BF%9B%E8%A1%8C%E5%A4%A7%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/"  target="_blank">
+                    <div class="paper-img">
+                        <img src="img/paper2.jpg" width="74px">
+                    </div>
+                    <div class="paper-text">
+                    <h5>机器学习方法来帮助进行大图可视化</h5>
+                         <p>为帮助用户找到一个合适的节点链接图布局，来描述一个图的结构，我们需要计算这个图数据在这种布局方法下的布局结果...</p>
+                    </div>    
+                 </a></li>
+                 <li><a href="http://www.cad.zju.edu.cn/home/vagblog/?p=5126" target="_blank">
+                    <div class="paper-img">
+                        <img src="img/paper3.jpg" width="74px">
+                    </div>
+                    <div class="paper-text">
+                    <h5>Visualizing the Hidden Activity...</h5>
+                         <p>在机器学习中，模式分类任务主要是根据样子学习得到模型把高维向量进行分类。人工神经网络在模式分类任务获得了最先进的结果...</p>
+                    </div>       
+                 </a></li>
+            </ul>
+        </div>
+    </div>
+</div>    
+</section>
+
+<section class="home-business">
+    <div class="home-business-left">
+        <div class="home-business-left-intro">
+             <img class="h4-decoration" src="img/h4business.png">
+            <h4>商业解决方案</h4>
+            <p>在这里大家可以学到如何基于ECharts将手上的数据制作成美观的可视化作品，以及如何使用WebVR制作VR展现。在这里大家可以学到如何基于ECharts</p>
+        </div>
+           <!--  <a class="home-business-left-btn" href="#">观看视频</a>  -->
+    </div>
+    
+    <div class="home-business-right">
+        <img class="home-business-right-data" src="img/data.png">
+        <!-- <video id="video-feature-1" autoplay="true" loop="true" src="http://cp01-wise99.epc.baidu.com:8000/feature-1.mp4" poster="video/feature-2.jpg" class="feature-video"></video> -->
+        <div class="home-business-right-column">
+        <a class="business-right-link" href="https://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=2649587294&idx=1&sn=8090724eb82d1cc9fb21806e33c944c1&chksm=879db6e4b0ea3ff2537f358c9f262c54906978f6adc206d5830631a5591577f2be36c47cf080#rd " target="_blank">
+            <img src="img/fang.gif" class="business-gif">
+            <h5 class="business-title">BDP × ECharts带企业体验商业智能新玩法</h5>
+            <p class="business-text">近日，ECharts又和国内另一数据可视化产品，海致BDP进行了强强联合，ECharts通过输出给BDP强大丰富的可视化展示方案，为企业带来更加贴近业务需求的商业智能新玩法。</p>
+        </a>    
+        </div>
+
+         <div class="home-business-right-column">
+          <a class="business-right-link" href="https://yq.aliyun.com/articles/106656" target="_blank">
+            <img src="img/yuan.gif" class="business-gif">
+            <h5 class="business-title">DataV接入ECharts图表库 可视化利器强强联手</h5>
+            <p class="business-text">DataV 企业版接入了 ECharts 图表组件，当你使用 DataV 搭建可视化项目时，可以轻松地插入 ECharts，这意味着更丰富多样的图表效果，也让编程小白们可以通过图形界面而非代码配置 ECharts。</p>
+          </a>
+        </div>
+    </div>
+
+</section>
+
+<section class="home-cooperate">
+    <div class="home-cooperate-top">
+            <img class="h4-decoration academic-decoration" src="img/h4cooperate.png">
+            <h4>交流合作</h4>
+    </div>
+    <div class="home-cooperate-middle">
+    <div class="schools-left"></div>
+    <div class="schools-right"></div>
+    <div class="schools">
+        <img src="img/1.jpg"><img src="img/2.jpg"><img src="img/3.jpg"><img src="img/4.jpg"><img src="img/5.jpg"><img src="img/6.jpg"><img src="img/7.jpg"><img class="tool-picture" src="img/1.jpg"><img class="tool-picture" src="img/2.jpg"><img class="tool-picture" src="img/3.jpg"><img class="tool-picture" src="img/4.jpg"><img class="tool-picture" src="img/5.jpg"><img class="tool-picture" src="img/6.jpg">
+    </div>
+    <p class="cooperate-p">我们与一系列高校都有合作例如清华北大人大等,2018年echarts开通活动申请渠道，如果你有课题、项目、教学等需求，可以提交申请，收到申请后我们会尽快与您取得联系详谈</p>
+    </div>
+
+    <!-- <div class="home-cooperate-bottom">
+            <h5>专家顾问</h5>
+            <p>我们有以下知名专家顾问团队，有了它们我们的团队很专业，我们有以下知名专家顾问团队，有了它们我们的团队很专业
+            我们有以下知名专家顾问团队</p>
+            <div class="container clearfix">
+  <div class="prev"><img src="img/prev.svg"></div>
+  <div class="album swiper-container">
+    <ul class="swiper-wrapper clearfix">
+      <li class="swiper-slide"><img src="img/shenyi1.png" alt=""></li>
+      <li class="swiper-slide"><img src="img/shenyi2.png" 
+       alt=""></li>
+      <li class="swiper-slide"><img src="img/shenyi3.png"  alt=""></li>
+      <li class="swiper-slide"><img src="img/shenyi4.png"  alt=""></li>
+      <li class="swiper-slide"><img src="img/shenyi5.png"  alt=""></li>
+      <li class="swiper-slide"><img src="img/shenyi6.png"  alt=""></li>
+    </ul>
+  </div>
+  <div class="next"><img src="img/next.svg"></div>
+</div>
+            
+    </div>     -->
+</section>
+
+
+<section class="home-contact-us">
+<div class="home-contact-us-content">
+    <div class="home-contact-us-left">
+        <img class="contact-us" src="img/contactus.png">
+        <h5>与我们联系</h5>
+        <p><span>Email</span>echarts@baidu.com</p>
+        <p><span>Adress</span>北京市海淀区百度科技园</p>
+        <!-- <img class="home-contact-us-left-contact" src="img/contact.png"> -->
+    </div>
+    <div class="home-contact-right">
+        <p>2018年echarts开通活动申请渠道，如果你有课题、项目、教学等需求，可以提交申请，收到申请后我们会尽快与您取得联系详谈</p>
+        <a class="more-btn contact-btn" href="echarts@baidu.com">联系我们</a>
+    </div>
+</div>    
+</section>
+
+    <footer>
+      <!-- <div class="row">
+
+        <div class="row3">
+            <div class="icon-panel">
+            <p>北京市  海淀区  西北旺东路10号院 百度科技园</p>
+            </div>
+         </div>
+
+         <div class="row1">
+            <h3>百度数据可视化实验室</h3>
+            <ul id="efe-product">
+               <li><a href="http://tushuo.baidu.com/?fr=echarts" target="_blank">图说</a></li>
+               <li><a href="https://ecomfe.github.io/san/?fr=echarts" target="_blank">Echarts</a></li>
+               <li><a href="http://ecomfe.github.io/edp/?fr=echarts" target="_blank">Qtec</a></li>
+               <li><a href="http://github.com/ecomfe/zrender?fr=echarts" target="_blank">ZRender</a></li>
+               <li><a href="http://fecs.baidu.com/?fr=echarts" target="_blank">Gallery</a></li>
+            </ul>
+         </div>
+         <div class="row2">
+            <h3>友情链接</h3>
+            <ul>
+               <li><a href="https://fex.baidu.com/?fr=echarts" target="_blank">FEX</a></li>
+               <li><a href="http://bit.baidu.com/?fr=echarts" target="_blank">百度技术学院</a></li>
+               <li><a href="">SAN</a></li>
+               <li><a href="">EDP</a></li>
+               <li><a href="">FECS</a></li>
+            </ul>
+         </div>
+         
+   </div>
+        </div>
+         -->
+        <div class="footer-copyright">
+            <div class="copyright-text">
+            <p>© 2018 百度 ECharts 团队出品</p>
+            </div>
+    </footer>    
+
+
+  <%- partial('_partial/mobilenav') %>
+</div>
+    <!-- JavaScript -->
+    <script src="<%- url_for('js/jquery-1.10.2.js') %>"></script>
+    <script src="http://lib.baomitu.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="<%- url_for('js/lottie.min.js') %>"></script>
+    <script src="<%- url_for('js/scripts.js') %>"></script>
+    <script src="<%- url_for('js/mobile_nav.js') %>"></script>
+</body>
+</html>
