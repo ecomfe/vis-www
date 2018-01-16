@@ -48,7 +48,9 @@ tags:
 
 </div>
 
-折线图除了展示某个事情发展的趋势，还可以用来比较多个不同的数据序列。如下方示例，可以通过对比同时间段的三种商品的销量，分析哪一种商品的销量最好。
+
+折线图除了展示某个事情发展的趋势，还可以用来比较多个不同的数据序列。如下图，可以通过对比同时间段的三种商品的销量，分析哪一种商品的销量最好。
+
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
@@ -56,6 +58,7 @@ tags:
 	    </iframe>
 	</div>
 </div>
+
 折线图是两个数据点之间用线连接起来，为了追求美观或特殊的效果，还可以如上图将两点之间用曲线连接，这种图又叫曲线图或样条图样条。样条图与折线图用法相同，只是每个数据点之间的绘制是曲线的。
 
 ## 折线图的使用建议
@@ -71,6 +74,7 @@ tags:
 	</div>
 </div>
 
+
 3、不建议使用过多的装饰来区分图表，图例虽然可以帮助区分不同数据系列，但如下图使用过多种类的图例有时会让你分心。
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
@@ -79,6 +83,7 @@ tags:
 	    </iframe>
 	</div>
 </div>
+
 
 4、展示折线图的数据时，要避免刻意的歪曲趋势。如下图，左图过于扁平化掩盖了想传达的信息，右图过于夸大趋势。要根据展示数据波动的参考单位，做有意义的波动分析。正确的数据高度是线约占Y轴高度的2/3
 <div class="article-look-outside">
@@ -89,6 +94,7 @@ tags:
 
 
 ## 更多示例
+
 <div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=dynamic-data2">

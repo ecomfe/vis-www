@@ -8,9 +8,10 @@ tags:
 ---
 
 ## 介绍
-堆积面积图是一种特殊的面积图，可以用来比较在一个区间内的多个变量。堆叠面积图和面积图的区别在于，其每个数据系列的起点都是基于前一个数据系列绘制的的，也就是每度量一行就要填满行与行之间的区域。
+堆积面积图是一种特殊的面积图，可以用来比较在一个区间内的多个变量。堆叠面积图和面积图的区别在于，堆叠面积图每个数据系列的起点都是基于前一个数据系列绘制的，也就是每度量一行就要填满行与行之间的区域。
 
-如果有多个数据系列，并想分析每个类别的部分到整体的关系，展示部分量对于总量的贡献时，使用堆积面积图是非常合适的。例如显示某个销售员对总销售额的贡献。
+如果有多个数据系列，并想分析每个类别的部分到整体的关系，并展现部分量对于总量的贡献时，使用堆积面积图是非常合适的选择。例如下图显示某个销售员对总销售额的贡献。
+
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
@@ -53,7 +54,7 @@ tags:
 有两种不同的堆积面积图类型：
 
 + <b>传统的堆积面积图</b>：直接使用原始值堆叠，显示整个过程如何变化。
-+ <b>百分比堆积面积图</b>：百分比堆积显示不同部分之间的关​​系如何随时间而变化。累积的总数不重要，重要的是显示出类别分布在整体中的作用。
++ <b>百分比堆积面积图</b>：百分比堆积显示不同部分之间的关​​系如何随时间而变化。其中累积的总数不重要，重要的是显示出类别分布在整体中的作用。
 
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
@@ -65,7 +66,8 @@ tags:
 
 ## 堆叠面积图的使用建议
 
-1、图表有重叠的数据时，类别数量越多，重叠越多，因此可见度越低。使用面积图时会如下图因为重叠而无法阅读。
+1、图表有重叠的数据时，类别数量越多，重叠越多，因此可见度越低。如果使用面积图（如下示例）时会因为系列的重叠而无法阅读。
+
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
@@ -75,6 +77,7 @@ tags:
 </div>
 
 那同样的数据，换成使用堆叠面积图展示，则相对更容易阅读。
+
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
