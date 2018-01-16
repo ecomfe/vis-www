@@ -8,7 +8,9 @@ tags:
 ---
 
 ## 介绍
+
 面积图又叫区域图，与折线图很相近，都可以用来展示随着连续时间的推移数据的变化趋势。区别在于，面积图在折线与类别数据的水平轴（X轴）之间填充颜色或者纹理，形成一个面表示数据体积。相对于折线而言，被填充的区域可以更好的引起人们对总值趋势的注意，所以面积图主要用于传达趋势的大小，而不是确切的单个数据值。
+
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
@@ -86,9 +88,9 @@ tags:
 				<div class="article-look-inside" style="padding-bottom:81.90%">
 				    <img class="article-look-content" src="./1area.png">
 				</div>
-			</div>			
+			</div>
 		</a>
-	</div>	
+	</div>
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=area-simple">
 			<div class="example-look-outside">
@@ -105,7 +107,7 @@ tags:
 				    <img class="article-look-content" src="./3area.png">
 				</div>
 			</div>
-		</a>		
+		</a>
 	</div>
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=christmas-children-population">
@@ -114,7 +116,7 @@ tags:
 				    <img class="article-look-content" src="./4area.png">
 				</div>
 			</div>
-		</a>		
+		</a>
 	</div>
 </div>
 
