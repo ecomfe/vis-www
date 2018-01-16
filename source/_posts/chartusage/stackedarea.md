@@ -51,7 +51,6 @@ tags:
 		<a href="<%- url_for('chartusage/area/') %>" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
 		</div>
 
-
 </div>
 
 有两种不同的堆积面积图类型：
@@ -74,7 +73,7 @@ tags:
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHyefoPzNf">
+	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHyNDxOo4M">
 	    </iframe>
 	</div>
 </div>
