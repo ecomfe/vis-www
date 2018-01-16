@@ -63,7 +63,9 @@ tags:
 		<a href="<%- url_for('chartusage/bar/') %>" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
 		<a href="<%- url_for('chartusage/bi-directional-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
 		<a href="<%- url_for('chartusage/stacked-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">堆叠柱状图</a>
-	</div>
+		</div>
+
+
 </div>
 
 ## 分组柱状图的使用建议

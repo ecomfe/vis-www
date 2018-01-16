@@ -44,8 +44,10 @@ subtitle: Bar Chart
 		<a href="<%- url_for('chartusage/bi-directional-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
 		<a href="<%- url_for('chartusage/grouped-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">分组柱状图</a>
 		<a href="<%- url_for('chartusage/stacked-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">堆叠柱状图</a>
-	</div>
+		</div>
 
+
+</div>
 
 纵向柱状图的柱是垂直方向的，横向柱状图的柱是水平方向的，又称条形图。条形图与横向柱状图表达数据的形式是一样的，不过，当图表的数据标签很长或者有超过10个项目进行比较时，横向柱状图会无法完全显示完标签，或者只能倾斜展示，影响美观。因此当数据标签过长时，选择用条形图可以获得比较好的展示效果。
 

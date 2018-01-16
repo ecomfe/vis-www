@@ -54,7 +54,8 @@ subtitle: Stacked Bar Chart
 		<a href="<%- url_for('chartusage/bar/') %>" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
 		<a href="<%- url_for('chartusage/bi-directional-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
 		<a href="<%- url_for('chartusage/grouped-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">分组柱状图</a>
-	</div>
+		</div>
+
 
 </div>
 

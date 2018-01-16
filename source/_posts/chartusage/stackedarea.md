@@ -44,16 +44,14 @@ tags:
         <td>25</td>
 	</tr>
 </table>
-<div class="morechart" style="margin-top: 150px">
-	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">折线图</a>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
-</div>
+
 <div class="morechart" style="margin-top: 150px">
 		<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 		<a href="<%- url_for('chartusage/line/') %>" style="display:block;margin: 5px 0;font-size:12px">折线图</a>
 		<a href="<%- url_for('chartusage/area/') %>" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
-	</div>
+		</div>
+
+
 </div>
 
 有两种不同的堆积面积图类型：
