@@ -64,7 +64,7 @@ dl, dt, dd, ol, ul, li {
 .ydropbtn {
     color: #030303;
     font-size: 14px;
-    font-weight:300; 
+    font-weight:300;
     border: none;
     cursor: pointer;
 }
@@ -77,8 +77,8 @@ dl, dt, dd, ol, ul, li {
 
 /* 下拉内容 (默认隐藏) */
 .ydropdown-content {
-    opacity: 0; 
-    display: block; 
+    opacity: 0;
+    display: block;
     pointer-events: none;
     border-radius: 4px;
     padding: 10px 0;
@@ -92,8 +92,8 @@ dl, dt, dd, ol, ul, li {
 
 
 /* 在鼠标移上去后显示下拉菜单 */
-.ydropdown:hover .ydropdown-content { 
-    z-index: 999; 
+.ydropdown:hover .ydropdown-content {
+    z-index: 999;
     opacity: 1;
     pointer-events: all;
     transform: translateY(0);
@@ -134,7 +134,7 @@ dl, dt, dd, ol, ul, li {
 }
 
 
-  
+
 .navigation-content-btn {
   float: right;
   /*position: absolute;
@@ -152,7 +152,7 @@ dl, dt, dd, ol, ul, li {
   font-size: 14px;
 }
 
-.yprimary-nav li .ynav-link-dec::after{ 
+.yprimary-nav li .ynav-link-dec::after{
     content: "";
     position: absolute;
     left: 50%;
@@ -218,7 +218,7 @@ dl, dt, dd, ol, ul, li {
     height: 2.8rem;
     padding-right: 2.5rem;
     padding-left: 1rem;
-    border: 0; 
+    border: 0;
     border-bottom: 2px solid #717e82;
     /*-webkit-border-radius: 3rem;
     -moz-border-radius: 0.3rem;
@@ -231,7 +231,7 @@ dl, dt, dd, ol, ul, li {
 }
 #san-query-input:focus{
     outline: none;
-    border: none; 
+    border: none;
     background: #fff;
 }
 
@@ -278,7 +278,7 @@ dl, dt, dd, ol, ul, li {
     position: fixed;
     top: 123px;
     bottom: 0;
-    padding: 20px 0 50px 30px; 
+    padding: 20px 0 50px 30px;
     font-size: 1.4rem;
     min-width: 160px;
     overflow-y: auto;
@@ -544,7 +544,7 @@ width: 100%;
 /*pc上移动端按钮不显示*/
 
 .mobile-nav{
-     display: none;   
+     display: none;
   }
 
 .drawer{
@@ -570,7 +570,7 @@ width: 100%;
         min-width: 0 !important;
         border-radius: 0;
     }
-            
+
 
     .toc-wrap,.recommend,nav .yprimary-nav{
         display: none;
@@ -585,8 +585,8 @@ width: 100%;
     header{
         text-align: center;
     }
-    
-   
+
+
 
 .header-content-nav{
     position: absolute;
@@ -620,7 +620,7 @@ width: 100%;
   display: block;
   position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     z-index: 1029;
 }
@@ -644,9 +644,9 @@ width: 100%;
     -webkit-overflow-scrolling: touch;
     position: fixed;
      left: -190px;
-     top: 0; 
-     bottom: 0; 
-     display: block; 
+     top: 0;
+     bottom: 0;
+     display: block;
      width: 190px;
      background: #fff;
      /*height: 100%; */
@@ -668,7 +668,7 @@ width: 100%;
 */
 /*    .mobile-nav-recommend{
         overflow-y: auto;
- 
+
     }
     .mobile-nav-recommend>dl>dt{
         color: #2EA2F8;
@@ -703,7 +703,7 @@ width: 100%;
     cursor: pointer;
     z-index: 999;
     }
-   
+
     .mobile-nav-toggle-bar{
     background: #cecece;
     position: absolute;
@@ -729,7 +729,7 @@ width: 100%;
     .mobile-nav-toggle-bar:last-child{
         top:16px;
     }
-    
+
     /*click mobile-nav-toggle-bar*/
     .mobile-nav-toggle-bar-on:first-child{
         transform: rotate(45deg);
@@ -745,7 +745,7 @@ width: 100%;
     /*移动端导航栏*/
 
     .mobile-nav-header{
-      border-bottom: 1px solid #eee; 
+      border-bottom: 1px solid #eee;
       margin-bottom: 28px;
       padding-bottom: 11px;
     }
