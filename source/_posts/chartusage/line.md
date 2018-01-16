@@ -39,11 +39,11 @@ tags:
 		<td>20</td>
 	</tr>
 </table>
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">堆叠面积图</a>
-</div>
+</div> -->
 
 
 </div>
@@ -66,7 +66,7 @@ tags:
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xrJHpLr8Nf&v=1">
+	    src="http://gallery.echartsjs.com/view-lite.html?cid=xBJzdEItVz&v=1">
 	    </iframe>
 	</div>
 </div>
@@ -82,14 +82,48 @@ tags:
 
 4、展示折线图的数据时，要避免刻意的歪曲趋势。如下图，左图过于扁平化掩盖了想传达的信息，右图过于夸大趋势。要根据展示数据波动的参考单位，做有意义的波动分析。正确的数据高度是线约占Y轴高度的2/3
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:49%">
+	<div class="article-look-inside" style="padding-bottom:24.512195%">
 	    <img class="article-look-content" src="./line01.jpg">
 	</div>
 </div>
 
 
 ## 更多示例
-
-<div style="margin: 400px">
-
+<div class="more-charts-example">
+	<div class="charts-example-one">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=dynamic-data2">
+			<div class="example-look-outside">
+				<div class="article-look-inside" style="padding-bottom:81.90%">
+				    <img class="article-look-content" src="./1line.png">
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="charts-example-one">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=line-marker">
+			<div class="example-look-outside">
+				<div class="article-look-inside" style="padding-bottom:81.90%">
+				    <img class="article-look-content" src="./2line.png">
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="charts-example-one">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=line-step">
+			<div class="example-look-outside">
+				<div class="article-look-inside" style="padding-bottom:81.90%">
+				    <img class="article-look-content" src="./3line.png">
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="charts-example-one">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=line-aqi">
+			<div class="example-look-outside">
+				<div class="article-look-inside" style="padding-bottom:81.90%">
+				    <img class="article-look-content" src="./4line.png">
+				</div>
+			</div>
+		</a>
+	</div>
 </div>

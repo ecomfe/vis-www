@@ -15,7 +15,6 @@ tags:
 	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHySlBkIEM&v=1">
-	    </iframe>
 	</div>
 </div>
 
@@ -59,11 +58,11 @@ tags:
 </table>
 
 
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">同数据类型图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">环形图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">南丁格尔</a>
-</div>
+</div> -->
 
 
 </div>
@@ -75,14 +74,14 @@ tags:
 
 2、我们很难比较一个分块过多的饼图的数据，建议尽量将饼图分块数量控制在五个以内。当数据类别较多时，我们可以把较小或不重要的数据合并成第五个模块命名为"其它"。如果各类别都必须全部展示，此时选择柱状图或堆积柱状图或许更合适。
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:57.317%">
+	<div class="article-look-inside" style="padding-bottom:32.926829%">
 	    <img class="article-look-content" src="./pie02.jpg">
 	</div>
 </div>
 
 3、饼图不适合被用于精确数据的比较，因此当各类别数据占比较接近时（如下左图），我们很难对比出每个类别占比的大小。此时建议选用柱状图或南丁格尔玫瑰图（如下右图）来获取更好的展示效果。
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:57.317%">
+	<div class="article-look-inside" style="padding-bottom:32.926829%">
 	    <img class="article-look-content" src="./pie03.jpg">
 	</div>
 </div>
@@ -91,7 +90,7 @@ tags:
 
 其余的数据分块有两种建议，一种是按照数据大小依次顺时针排列，另一种是在12点钟的左边绘制第二大的分块，其余的分块按照逆时针排列，最小的分块放在底部。如下图所示。
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:57.317%">
+	<div class="article-look-inside" style="padding-bottom:28.658537%">
 	    <img class="article-look-content" src="./pie01.jpg">
 	</div>
 </div>
@@ -109,48 +108,49 @@ tags:
 6、三维的饼图歪曲了各分块相对于整体的比例关系，会造成错误及理解上的困扰。因此不建议使用3D饼图。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:62.92%">
+	<div class="article-look-inside" style="padding-bottom:28.658537%">
 	    <img class="article-look-content" src="./pie04.jpg">
 	</div>
 </div>
+
 
 ## 更多示例
 
 <div class="more-charts-example">
 	<div class="charts-example-one">
-		<a href="">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=calendar-pie">
 			<div class="example-look-outside">
 				<div class="article-look-inside" style="padding-bottom:81.90%">
-				    <img class="article-look-content" src="./pie05.jpg">
-				</div>
-			</div>			
-		</a>
-	</div>	
-	<div class="charts-example-one">
-		<a href="">
-			<div class="example-look-outside">
-				<div class="article-look-inside" style="padding-bottom:81.90%">
-				    <img class="article-look-content" src="./pie05.jpg">
+				    <img class="article-look-content" src="./1pie.png">
 				</div>
 			</div>
 		</a>
 	</div>
 	<div class="charts-example-one">
-		<a href="">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=pie-pattern">
 			<div class="example-look-outside">
 				<div class="article-look-inside" style="padding-bottom:81.90%">
-				    <img class="article-look-content" src="./pie05.jpg">
+				    <img class="article-look-content" src="./2pie.png">
 				</div>
 			</div>
-		</a>		
+		</a>
 	</div>
 	<div class="charts-example-one">
-		<a href="">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=pie-nest">
 			<div class="example-look-outside">
 				<div class="article-look-inside" style="padding-bottom:81.90%">
-				    <img class="article-look-content" src="./pie05.jpg">
+				    <img class="article-look-content" src="./3pie.png">
 				</div>
 			</div>
-		</a>		
+		</a>
 	</div>
-</div>
+	<div class="charts-example-one">
+		<a href="http://gallery.echartsjs.com/view-lite.html?cid=xHkhyiVyIW">
+			<div class="example-look-outside">
+				<div class="article-look-inside" style="padding-bottom:81.90%">
+				    <img class="article-look-content" src="./4pie.png">
+				</div>
+			</div>
+		</a>
+	</div>
+

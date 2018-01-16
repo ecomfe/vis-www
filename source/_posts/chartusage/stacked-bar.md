@@ -1,10 +1,7 @@
 ---
 title: 堆叠柱状图
 subtitle: Stacked Bar Chart
-tags:
-	- 堆叠
-	- 部分
-	- 整体
+
 ---
 
 ## 介绍
@@ -15,7 +12,7 @@ tags:
 
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xBk7oUNwEz">
 	    </iframe>
@@ -25,7 +22,7 @@ tags:
 
 <div class="datatype" style="overflow:hidden" width="180px">
 <p style="font-size:14px;font-weight:500;margin: 0 0 13px 0;">适合的数据类型</p>
-<table style="width: 40%; float:left; margin-right:15px">
+<table class="lefttable" style="float:left; margin-right:15px">
 	<tr>
 		<td> </td>
 		<td>I</td>
@@ -52,12 +49,12 @@ tags:
 	</tr>
 </table>
 
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">分组柱状图</a>
-</div>
+</div> -->
 </div>
 
 ## 堆叠柱状图的使用建议
@@ -86,8 +83,6 @@ tags:
 			</div>
 		</a>
 	</div>
-</div>
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=xr1AvE2JIb">
 			<div class="example-look-outside">

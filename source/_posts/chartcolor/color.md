@@ -106,12 +106,3 @@ title: 图表配色
 	</div>
 </div>
 
-背景色以及辅助元素还不能与图表内容太接近。文字、坐标的颜色也要遵循明显易读的基本准则。不然会给用户带来很大的障碍，如下图是两个反例：
-
-<div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:60%">
-	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHySlBkIEM&v=1">
-	    </iframe>
-	</div>
-</div>

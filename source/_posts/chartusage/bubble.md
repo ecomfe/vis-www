@@ -1,10 +1,7 @@
 ---
 title: 气泡图
 subtitle: Bubble Chart
-tags:
-	- 气泡
-	- 分配
-    - 比较
+
 ---
 
 ## 介绍
@@ -13,7 +10,7 @@ tags:
 
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHkRpZuY4z&v=1">
 	    </iframe>
@@ -22,7 +19,7 @@ tags:
 
 <div  class="datatype" style="overflow:hidden" width="180px">
 <p style="font-size:14px;font-weight:500;margin: 0 0 13px 0;">适合的数据类型</p>
-<table style="width: 40%; float:left; margin-right:15px">
+<table class="lefttable" style="width: 40%; float:left; margin-right:15px">
 	<tr>
 		<td>X</td>
 		<td>Y</td>
@@ -45,10 +42,10 @@ tags:
 	</tr>
 </table>
 
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">散点图</a>
-</div>
+</div> -->
 </div>
 
 ## 气泡图的使用建议
@@ -56,7 +53,7 @@ tags:
 1、如果您的数据具有3个序列/特征及相关值，则气泡图是一个不错的选择。如下图显示了代码提交的日期，具体的时间点以及提交的代码量。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=scatter-punchCard">
 	    </iframe>
@@ -66,7 +63,7 @@ tags:
 2、我们还可以给气泡加入颜色编码。例如下图用不同的颜色将三个地区的空气数据分类标注，红色代表北京，黄色代表上海、蓝色代表广州，从而帮助直观地对比分析三地的空气质量情况。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=scatter-aqi-color">
 	    </iframe>
@@ -76,7 +73,7 @@ tags:
 3、气泡图还经常用于和地图结合，其中，x轴和y轴是经度和纬度的气泡图。气泡的大小可以表明数量的大小。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=scatter-world-population">
 	    </iframe>
@@ -96,8 +93,6 @@ tags:
 			</div>
 		</a>
 	</div>
-
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=scatter-polar-punchCard">
 			<div class="example-look-outside">
@@ -107,8 +102,6 @@ tags:
 			</div>
 		</a>
 	</div>
-
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=bubble-gradient">
 			<div class="example-look-outside">
@@ -118,8 +111,6 @@ tags:
 			</div>
 		</a>
 	</div>
-</div>
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=scatter-life-expectancy-timeline">
 			<div class="example-look-outside">

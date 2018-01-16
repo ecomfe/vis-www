@@ -14,7 +14,7 @@ tags:
 双向柱状图一般用于正负两份相反数据的对比。例如一周内个人收入和支出的统计值，其中收入为正数，支出为负数。使用双向柱状图可以很明确的对收入和支出做出对比，并且能清楚从各自系列中分析收入和支出的数值及波动。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xByf1W67VM">
 	    </iframe>
@@ -24,7 +24,7 @@ tags:
 双向柱状图可分为垂直方向的双向柱状图（如上图）和水平方向的双向柱状图（如下图又叫正负条形图），例如一个客户满意度的调查数据分析，有正面评价和负面评价，这很适合用正负条形图，其中所有数据在中间对齐，正面的评价数据分布在右侧，负面的评价数据分布在左侧。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xHJ1un374z">
 	    </iframe>
@@ -33,7 +33,7 @@ tags:
 
 <div  class="datatype" style="overflow:hidden" width="180px">
 <p style="font-size:14px;font-weight:500;margin: 0 0 13px 0;">适合的数据类型</p>
-<table style="width: 40%; float:left; margin-right:15px">
+<table class="lefttable" style="float:left; margin-right:15px">
 	<tr>
 		<td>A</td>
 		<td>-10</td>
@@ -51,12 +51,12 @@ tags:
 	</tr>
 </table>
 
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">分组柱状图</a>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">堆叠柱状图</a>
-</div>
+</div> -->
 </div>
 
 ## 双向柱状图的使用建议
@@ -77,8 +77,3 @@ tags:
 	</div>
 </div>
 
-## 更多示例
-
-<div style="margin: 400px">
-
-</div>

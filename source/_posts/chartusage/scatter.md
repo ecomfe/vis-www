@@ -1,10 +1,7 @@
 ---
 title: 散点图
 subtitle: Scatter Plot
-tags:
-	- 散点
-	- 分布
-	- 趋势
+
 ---
 
 ## 介绍
@@ -12,7 +9,7 @@ tags:
 散点图在直角坐标系显示数据的两个变量（X和Y轴）之间的关系，数据显示为点的集合，适合用于在不考虑时间的情况下比较大量的数据点。散点图通常用来识别两个变量之间的相关性或用来观察他们的关系，从而发现某种趋势，对于查找异常值或理解数据分布也很有效。如下图某个班级学生身高和体重的分布状况。
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xSkCyUwKNG&v=1">
 	    </iframe>
@@ -37,7 +34,7 @@ tags:
 
 <div  class="datatype" style="overflow:hidden" width="180px">
 <p style="font-size:14px;font-weight:500;margin: 0 0 13px 0;">适合的数据类型</p>
-<table style="width: 40%; float:left; margin-right:15px">
+<table class="lefttable" style="width: 40%; float:left; margin-right:15px">
 	<tr>
 		<td> </td>
 		<td>X</td>
@@ -60,10 +57,10 @@ tags:
 	</tr>
 </table>
 
-<div class="morechart" style="margin-top: 150px">
+<!-- <div class="morechart" style="margin-top: 150px">
 	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
 	<a href="" style="display:block;margin: 5px 0;font-size:12px">气泡图</a>
-</div>
+</div> -->
 </div>
 
 ## 散点图的使用建议
@@ -74,7 +71,7 @@ tags:
 
 
 <div class="article-look-outside">
-	<div class="article-look-inside" style="padding-bottom:100%">
+	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
 	    src="http://gallery.echartsjs.com/view-lite.html?cid=xBy9E2oufM">
 	    </iframe>
@@ -99,9 +96,6 @@ tags:
 			</div>
 		</a>
 	</div>
-
-
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=scatter-large">
 			<div class="example-look-outside">
@@ -111,9 +105,6 @@ tags:
 			</div>
 		</a>
 	</div>
-
-
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=scatter-weibo">
 			<div class="example-look-outside">
@@ -123,9 +114,6 @@ tags:
 			</div>
 		</a>
 	</div>
-
-
-<div class="more-charts-example">
 	<div class="charts-example-one">
 		<a href="http://gallery.echartsjs.com/view-lite.html?cid=scatter-weibo">
 			<div class="example-look-outside">
