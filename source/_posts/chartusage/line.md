@@ -1,6 +1,6 @@
 ---
 title: 折线图
-subtitle: Linechart
+subtitle: Line Chart
 tags:
     - 折线
     - 趋势
@@ -39,15 +39,14 @@ tags:
 		<td>20</td>
 	</tr>
 </table>
-<!-- <div class="morechart" style="margin-top: 150px">
-	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">堆叠面积图</a>
-</div> -->
 
+<div class="morechart" style="margin-top: 150px">
+		<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
+		<a href="<%- url_for('chartusage/area/') %>" style="display:block;margin: 5px 0;font-size:12px">面积图</a>
+		<a href="<%- url_for('chartusage/stackedarea/') %>" style="display:block;margin: 5px 0;font-size:12px">堆叠面积图</a>
+	</div>
 
 </div>
-
 
 折线图除了展示某个事情发展的趋势，还可以用来比较多个不同的数据序列。如下图，可以通过对比同时间段的三种商品的销量，分析哪一种商品的销量最好。
 

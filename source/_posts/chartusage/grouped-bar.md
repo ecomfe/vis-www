@@ -58,12 +58,12 @@ tags:
 	</tr>
 </table>
 
-<!-- <div class="morechart" style="margin-top: 150px">
-	<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
-	<a href="" style="display:block;margin: 5px 0;font-size:12px">堆叠柱状图</a>
-</div> -->
+<div class="morechart" style="margin-top: 150px">
+		<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
+		<a href="<%- url_for('chartusage/bar/') %>" style="display:block;margin: 5px 0;font-size:12px">柱状图</a>
+		<a href="<%- url_for('chartusage/bi-directional-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">双向柱状图</a>
+		<a href="<%- url_for('chartusage/stacked-bar/') %>" style="display:block;margin: 5px 0;font-size:12px">堆叠柱状图</a>
+	</div>
 </div>
 
 ## 分组柱状图的使用建议

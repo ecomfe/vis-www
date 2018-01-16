@@ -1,6 +1,6 @@
 ---
 title: 饼图
-subtitle: Piechart
+subtitle: Pie Chart
 tags:
     - 饼图
     - 占比
