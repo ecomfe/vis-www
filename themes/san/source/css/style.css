@@ -30,7 +30,7 @@ dl, dt, dd, ol, ul, li {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -73px;
+  margin-left: -85px;
   margin-top: -9px;
 }
 .ynavigation-logo>p{
@@ -114,7 +114,7 @@ dl, dt, dd, ol, ul, li {
     font-size: 14px;
     position: relative;
     line-height: 14px;
-    padding: 17px 16px;
+    padding: 18px 16px;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid #f9f9f9;
@@ -436,12 +436,11 @@ line-height: 27px;
 
 .page-info{
     margin-bottom: 50px;
-    margin-top: 72px;
     text-align: center;
-    padding: 40px;
+    padding: 130px 10px 40px 10px;
     color: #4e6167;
     background: #F4F7FC;
-    background: url("../img/paperback.jpg") bottom;
+    background: url("../img/paperback.jpg") center top;
 }
 
 .page-info h1 {

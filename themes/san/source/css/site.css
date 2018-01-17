@@ -6,22 +6,22 @@ body{
 
 
 .home-intro{
-  font-size: 41px;
-  font-weight: 100;
-  color: rgba(255,255,255,.5);
-  letter-spacing: 1px;
-  margin: 0;
+  font-size: 31px;
+    font-weight: 100;
+    color: rgba(255,255,255,.2);
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 33px;
 }
 
-
-p {
-  /*font-size: 12px;*/
-  line-height: 18px;
-  /*color: #969699;*/
-  /*font-weight: 300;*/
-  margin: 0;
+.home-intro-p{
+  color: rgba(255,255,255,.7);
+  font-size: 16px;
+  padding-right: 90px;
+  padding-left: 5px;
+  font-weight: 200;
+  line-height: 30px;
 }
-
 
 .btn:hover, .btn:focus {
   color: #fff;
@@ -97,7 +97,7 @@ home-landscape
 
 .home-landscape {
   width: 100%;
-  min-height: 557px;
+  max-height: 567px;
   /*background: url("../img/background2.jpg") bottom;*/
   background-color: #102131;
   background-repeat: no-repeat;
@@ -111,13 +111,15 @@ home-landscape
 }
 
 .home-landscape-content-left h1{
-  font-size: 58px;
-    line-height: 90px;
+  font-size: 40px;
+    line-height: 62px;
     color: #fff;
     font-weight: 800;
     margin: 0;
     letter-spacing: 2px;
+    margin-bottom: 23px;
 }
+
 
 .background-img{
   position: absolute;
@@ -142,23 +144,23 @@ home-landscape
 .home-landscape-content{
   max-width: 1130px;
   margin: 0 auto;
-  padding-top: 10%;
   position: relative;
 }
 
-/*.ellipse{
-    position: absolute;
-    left: 50%;
-    margin-left: -720px;
-    z-index: 1;
-}*/
-.home-landscape-content-left>h1{
-  margin-bottom: 20px;
-}
 .home-landscape-content-right{
-  position: absolute;
-  top: -15px;
-  right: -130px;
+  width: 62%;
+  margin-right: -300px;
+  margin-left: -6%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.home-landscape-content-left{
+  width: 54%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 9%;
+  position: relative;
 }
 
 #bm{
@@ -167,16 +169,36 @@ home-landscape
 }
 
 @media screen and (max-width: 768px){
-  .home-landscape-content-right{
-    position: relative;
-    right: 0;
-    top: 0;
-    margin-top: 50px;
+
+  .home-landscape {
+    max-height: 1000px;
   }
+  .home-landscape-content-right{
+    display: block;
+    width: 100%;
+    margin:0; 
+  }
+  .home-landscape-content-left{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .home-landscape-content-left h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .home-intro-p{
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   #bm{
     max-width: 600px;
     margin: 0 auto; 
   }
+
 }
 
 /*#oval {
@@ -219,7 +241,7 @@ home-landscape
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -73px;
+  margin-left: -85px;
   margin-top: -9px;
 }
 .navigation-logo>p{
@@ -316,7 +338,7 @@ home-landscape
     font-size: 14px;
     position: relative;
     line-height: 14px;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid #f9f9f9;
@@ -818,13 +840,17 @@ margin: 0;
 }
 .home-cooperate-top{
   margin: 133px auto 0 auto;
-  width:33%; 
+  width:27%; 
   height:144px;
   border-top:2px solid #DBE4FD;
   border-left:2px solid #DBE4FD; 
   border-right:2px solid #DBE4FD;
   box-sizing: border-box;
   padding-top: 37px;
+}
+
+.academic-decoration{
+  margin-left: -4px;
 }
 
 .home-cooperate-middle{
@@ -968,7 +994,7 @@ display: block;
 }
 .home-business-left-intro h4,.home-cooperate-top h4{
     font-family: PingFangSC-Semibold;
-    font-size: 37px;
+    font-size: 30px;
     color: #030303;
     letter-spacing: 3.02px;
     margin: 5px 0;
@@ -1109,6 +1135,7 @@ color: #030303;
 letter-spacing: 0.79px;
 line-height: 38px;
 font-weight: 200;
+margin: 0;
 }
 .home-contact-us-left>p>span{
 opacity: 0.4;
@@ -1155,13 +1182,7 @@ margin: 76px 0 37px 30px;
 .float{
   animation: none;
 }
-.home-landscape-content-left h1{
-font-size: 40px;
-line-height: 45px;
-}
-.home-intro{
-  font-size: 28px;
-}
+
 
 .home-landscape-content-left{
   text-align: center;
@@ -1358,15 +1379,4 @@ line-height: 45px;
 .home-contact-right>p{
   margin-left: 0;
 }
-}
-@media screen and (max-width: 432px){
-  .home-landscape-content-left h1{
-    font-size: 32px;
-    line-height: 36px;
-  }
-
-  .home-intro{
-    font-size: 22px;
-  }
-
 }

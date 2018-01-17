@@ -54,19 +54,7 @@
 
 }
 
-#to-gallery{
-    font-size: 12px;
-    font-weight: 300;
-    color: #cacaca;
-    position: absolute;
-    right: 7px;
-    bottom: 7px;
-    text-decoration: none;
-}
 
-#to-gallery:hover{
-    color: #4778ee;
-}
 
 /*页面插入iframe样式控制*/
 .article-look-outside{
@@ -98,7 +86,9 @@
 }
 
 /*页面文字样式控制*/
-
+.article-invisibleh2{
+    display: none;
+}
 
 /*页面右侧浮动元素的样式*/
 .toc-wrap {
@@ -252,7 +242,7 @@ article h1 {
     font-size: 32px;
     color: #030303;
     line-height: 3rem;
-    margin: 0 0 40px;
+    margin: 0 0 45px;
     font-weight: 500;
 }
 
