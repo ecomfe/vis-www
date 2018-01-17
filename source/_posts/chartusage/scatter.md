@@ -59,7 +59,7 @@ subtitle: Scatter Plot
 
 <div class="morechart" style="margin-top: 150px">
 		<p style="font-size:14px;font-weight:500;margin: 0 0 8px 0">类似图表</p>
-		<a href="/chartusage/bubble" style="display:block;margin: 5px 0;font-size:12px">气泡图</a>
+		<a href="/chartusage/bubble/" style="display:block;margin: 5px 0;font-size:12px">气泡图</a>
 		</div>
 
 
