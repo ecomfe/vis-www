@@ -45,6 +45,10 @@
 	}
 
 	//控制左侧导航收起与展开
+
+	//var Current = $(".recommend-current");
+		//Current.parents('.item-box').find('.title').removeClass('title-on');
+
 	$(".title" ).click(function() {
 		var titleEl = $(this);
 
@@ -53,13 +57,11 @@
 			}, 100, function() {
 			// Animation complete.
 		});
-
 		titleEl[
 			titleEl.hasClass('title-on') ? 'removeClass' : 'addClass'
 		]('title-on');
 	});
-
-	//控制左侧导航变色
+	
 
 })();
 

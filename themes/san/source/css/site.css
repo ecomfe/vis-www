@@ -230,11 +230,11 @@ home-landscape
   height: 72px;
   line-height: 72px;
   position: fixed;
-  top: -72px;
+  top: -74px;
   background-color: #fff;
   z-index: 999;
   border-bottom: 1px solid #eee;
-  transform: translateY(72px);
+  transform: translateY(74px);
   transition: transform ease .3s;    
 }
 .navigation-logo{

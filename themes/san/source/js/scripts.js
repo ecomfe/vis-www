@@ -11,7 +11,7 @@
 		var dropbt1 =document.getElementsByClassName('dropbtn')[0];
 		var dropbt2 =document.getElementsByClassName('dropbtn')[1];
 		
-		if (scroll >= 600) {
+		if (scroll > 600) {
 			if (!(/fixed/.test(nav.className))) {
 			  	nav.className += ' fixed';
 			  	logo.className += ' navigation-logo-on';
@@ -22,12 +22,8 @@
 			  	$('.nav-link-dec').addClass("nav-link-dec-on");
 			  	$('.drawer').removeClass("drawer-away");
 			  	$('.current').addClass("current-on");
-
-
 			}
 
-			header.style.borderBottom = 'none';
-			header.style.padding = '0 0';
 		}
 
 		 else {
@@ -40,9 +36,6 @@
 			$('.nav-link-dec').removeClass("nav-link-dec-on");
 			$('.drawer').addClass("drawer-away");
 			$('.current').removeClass("current-on");
-
-			header.style.padding = '0 0';
-			
 		}
 	};
 	

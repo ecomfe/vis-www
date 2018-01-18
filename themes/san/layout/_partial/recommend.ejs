@@ -1,11 +1,13 @@
+<ul class="overview">
+  <li>
+    <a href="<%- url_for('chartusage/overview/') %>">概述</a>
+  </li>
+</ul>
 <h3 class="recommend-h3 recommend-first-h3">图表用法</h3>
 <ul>
-    <!-- <li>
-        <a href="<%- url_for('tutorial/setup/') %>">概述</a>
-    </li> -->
     <li>
         <dl class="item-box">
-           <dt class="title">折线图</dt>
+           <dt class="title <%if(page.path.indexOf('chartusage/line/')==0|| page.path.indexOf('chartusage/area/') ==0|| page.path.indexOf('chartusage/stackedarea/') ==0){%>title-on<%}%>">折线图</dt>
            <div class="dd-box <%if(page.path.indexOf('chartusage/line/')==0|| page.path.indexOf('chartusage/area/') ==0|| page.path.indexOf('chartusage/stackedarea/') ==0){%>recommend-current<%}%>">
                <dd><a href="<%- url_for('chartusage/line/') %>">基础折线图</a></dd>
                <dd><a href="<%- url_for('chartusage/area/') %>">面积图</a></dd>
@@ -15,7 +17,7 @@
     </li>
     <li>
         <dl class="item-box">
-           <dt class="title title-on">柱状图</dt>
+           <dt class="title <%if(page.path.indexOf('chartusage/bar/')==0|| page.path.indexOf('chartusage/bi-directional-bar/') ==0|| page.path.indexOf('chartusage/stacked-bar/') ==0|| page.path.indexOf('chartusage/grouped-bar/') ==0){%>title-on<%}%>">柱状图</dt>
            <div class="dd-box <%if(page.path.indexOf('chartusage/bar/')==0|| page.path.indexOf('chartusage/bi-directional-bar/') ==0|| page.path.indexOf('chartusage/stacked-bar/') ==0|| page.path.indexOf('chartusage/grouped-bar/') ==0){%>recommend-current<%}%>">
            <dd><a href="<%- url_for('chartusage/bar/') %>">基础柱状图</a></dd>
            <dd><a href="<%- url_for('chartusage/bi-directional-bar/') %>">双向柱状图</a></dd>
@@ -26,7 +28,7 @@
     </li>
     <li>
         <dl class="item-box">
-           <dt class="title title-on">饼图</dt>
+           <dt class="title <%if(page.path.indexOf('chartusage/pie/')==0){%>title-on<%}%>">饼图</dt>
            <div class="dd-box <%if(page.path.indexOf('chartusage/pie/')==0){%>recommend-current<%}%>">
            <dd><a href="<%- url_for('chartusage/pie/') %>">基础饼图</a></dd>
            <!-- <dd><a href="<%- url_for('chartusage/pie/') %>">环形图</a></dd> -->
@@ -80,7 +82,7 @@
 <h3 class="recommend-h3">图表配色指南</h3>
     <ul>
         <li>
-        <a href="<%- url_for('chartcolor/overview/') %>">概述</a>
+        <a href="<%- url_for('chartcolor/question/') %>">常见问题</a>
         </li>
         <li>
             <a href="<%- url_for('chartcolor/basis/') %>">可视化色彩理论基础</a>
