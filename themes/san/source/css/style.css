@@ -30,7 +30,7 @@ dl, dt, dd, ol, ul, li {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -85px;
+  margin-left: -104px;
   margin-top: -9px;
 }
 .ynavigation-logo>p{
@@ -533,13 +533,36 @@ line-height: 27px;
 
 
 .row-right a{
-background: url(./img/paper1.jpg) no-repeat;
 background-color: #eee;
 background-size: cover;
 display: block;
 height: 152px;
 width: 100%;
 }
+
+.index-post-image1{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/04/Picture1.png') center top no-repeat;
+}
+.index-post-image2{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/04/4.png') center top no-repeat;
+}
+.index-post-image3{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/05/Picture1.png') center top no-repeat;
+}
+.index-post-image4{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/10/图片8.png') center top no-repeat;
+}
+.index-post-image5{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/11/事件定义.png') center top no-repeat;
+}
+.index-post-image6{
+    background: url('http://www.cad.zju.edu.cn/home/vagblog/wp-content/uploads/2017/12/3d.png') center top no-repeat;
+}
+.index-post-image7{
+    background: url('http://o6vut8vrh.bkt.clouddn.com/17-9-3/37262850.jpg') center top no-repeat;
+}
+
+
 @media only screen and  (max-width: 768px){
 .page-post .row .row-left{
   width: 100%;
