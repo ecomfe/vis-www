@@ -274,6 +274,20 @@ dl, dt, dd, ol, ul, li {
     margin: .5rem;
 }
 
+/*左侧导航*/
+
+/*左侧导航收起*/
+
+.dd-box{
+  display: none;
+  overflow:hidden
+}
+
+.recommend-current{
+  display: block;
+}
+
+
 .recommend {
     position: fixed;
     top: 123px;

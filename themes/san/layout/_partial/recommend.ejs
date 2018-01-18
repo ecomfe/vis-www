@@ -5,8 +5,8 @@
     </li> -->
     <li>
         <dl class="item-box">
-           <dt class="title title-on">折线图</dt>
-           <div class="dd-box" style="overflow:hidden;display:none">
+           <dt class="title">折线图</dt>
+           <div class="dd-box <%if(page.path.indexOf('chartusage/line/')==0|| page.path.indexOf('chartusage/area/') ==0|| page.path.indexOf('chartusage/stackedarea/') ==0){%>recommend-current<%}%>">
                <dd><a href="<%- url_for('chartusage/line/') %>">基础折线图</a></dd>
                <dd><a href="<%- url_for('chartusage/area/') %>">面积图</a></dd>
                <dd><a href="<%- url_for('chartusage/stackedarea/') %>">堆叠面积图</a></dd>
@@ -16,7 +16,7 @@
     <li>
         <dl class="item-box">
            <dt class="title title-on">柱状图</dt>
-           <div class="dd-box" style="overflow:hidden;display:none">
+           <div class="dd-box <%if(page.path.indexOf('chartusage/bar/')==0|| page.path.indexOf('chartusage/bi-directional-bar/') ==0|| page.path.indexOf('chartusage/stacked-bar/') ==0|| page.path.indexOf('chartusage/grouped-bar/') ==0){%>recommend-current<%}%>">
            <dd><a href="<%- url_for('chartusage/bar/') %>">基础柱状图</a></dd>
            <dd><a href="<%- url_for('chartusage/bi-directional-bar/') %>">双向柱状图</a></dd>
            <dd><a href="<%- url_for('chartusage/stacked-bar/') %>">堆叠柱状图</a></dd>
@@ -27,7 +27,7 @@
     <li>
         <dl class="item-box">
            <dt class="title title-on">饼图</dt>
-           <div class="dd-box" style="overflow:hidden;display:none">
+           <div class="dd-box <%if(page.path.indexOf('chartusage/pie/')==0){%>recommend-current<%}%>">
            <dd><a href="<%- url_for('chartusage/pie/') %>">基础饼图</a></dd>
            <!-- <dd><a href="<%- url_for('chartusage/pie/') %>">环形图</a></dd> -->
            <!-- <dd><a href="<%- url_for('chartusage/pie/') %>">南丁格尔玫瑰图</a></dd> -->
