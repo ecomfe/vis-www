@@ -97,7 +97,7 @@ home-landscape
 
 .home-landscape {
   width: 100%;
-  max-height: 567px;
+  max-height: 590px;
   /*background: url("../img/background2.jpg") bottom;*/
   background-color: #102131;
   background-repeat: no-repeat;
@@ -111,13 +111,13 @@ home-landscape
 }
 
 .home-landscape-content-left h1{
-  font-size: 40px;
+  font-size: 53px;
     line-height: 62px;
     color: #fff;
     font-weight: 800;
     margin: 0;
     letter-spacing: 2px;
-    margin-bottom: 23px;
+    margin-bottom: 30px;
 }
 
 
