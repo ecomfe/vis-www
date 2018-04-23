@@ -112,15 +112,17 @@ home-landscape
 }
 
 .home-landscape-content-left h1{
-  font-size: 51px;
+  font-size: 48px;
     line-height: 62px;
     color: #fff;
     font-weight: 800;
     margin: 0;
-    letter-spacing: 2px;
     margin-bottom: 30px;
 }
-
+.home-landscape-content-left h1 b{
+  font-size: 53px;
+  margin-right: 5px;
+}
 
 .background-img{
   position: absolute;
@@ -151,7 +153,7 @@ home-landscape
 .home-landscape-content-right{
   width: 62%;
   margin-right: -300px;
-  margin-left: -6%;
+  margin-left: -8%;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -242,7 +244,7 @@ home-landscape
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -75px;
+  margin-left: -88px;
   margin-top: -9px;
 }
 .navigation-logo>p{
