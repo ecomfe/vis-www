@@ -60,7 +60,7 @@ title: 可视化色彩理论基础
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xrJL-Z7cNf">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=xrJL-Z7cNf">
 	    </iframe>
 	</div>
 </div>
@@ -71,7 +71,7 @@ title: 可视化色彩理论基础
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=scatter-weibo">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=scatter-weibo">
 	    </iframe>
 	</div>
 </div>

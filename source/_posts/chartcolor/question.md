@@ -12,7 +12,7 @@ title: 配色常见问题
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xSJspBYO4z&v=1">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=xSJspBYO4z&v=1">
 	    </iframe>
 	</div>
 </div>
@@ -24,7 +24,7 @@ title: 配色常见问题
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:60%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xB1_UkbAP">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=xB1_UkbAP">
 	    </iframe>
 	</div>
 </div>

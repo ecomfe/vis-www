@@ -34,14 +34,14 @@ X轴和Y轴都由轴线、刻度、刻度标签、轴标题四个部分组成。
 	<div class="article-look-inside" style="padding-bottom:8.8785%">
 	    <img class="article-look-content" src="./charts_axis_img06.png">
 	</div>
-</div> 
+</div>
 <br>
 
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:21.308%">
 	    <img class="article-look-content" src="./charts_axis_img07.png">
 	</div>
-</div> 
+</div>
 
 当X轴（水平坐标轴）跨度很大，可以采用才区域缩放方式灵活显示数据内容。
 
@@ -49,13 +49,13 @@ X轴和Y轴都由轴线、刻度、刻度标签、轴标题四个部分组成。
 	<div class="article-look-inside" style="padding-bottom:48.7097%">
 	    <img class="article-look-content" src="./charts_axis_img10.png">
 	</div>
-</div> 
+</div>
 <br>
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:29.818%">
 	    <img class="article-look-content" src="./charts_axis_img12.png">
 	</div>
-</div> 
+</div>
 
 <b>Y轴</b>：常常用来标示数据的数值，数值是用来具体考察某一类数据的数量值，也是我们需要分析的指标。例如“销售数量”和“销售金额”等。
 
@@ -69,13 +69,13 @@ X轴和Y轴都由轴线、刻度、刻度标签、轴标题四个部分组成。
 	<div class="article-look-inside" style="padding-bottom:43.453%">
 	    <img class="article-look-content" src="./charts_axis_img02.png">
 	</div>
-</div> 
+</div>
 <br>
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:28.128%">
 	    <img class="article-look-content" src="./charts_axis_img04.png">
 	</div>
-</div> 
+</div>
 
 
 在二维数据中，y轴也可以有多个，两个y轴显示在左右两侧，常用来对比两组值域范围不同的数据的趋势关系。
@@ -91,7 +91,7 @@ X轴和Y轴都由轴线、刻度、刻度标签、轴标题四个部分组成。
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xrJYBh__4z">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=xrJYBh__4z">
 	    </iframe>
 	</div>
 </div>

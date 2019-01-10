@@ -13,7 +13,7 @@ subtitle: Gauger Chart
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=xH1vxib94f">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=xH1vxib94f">
 	    </iframe>
 	</div>
 </div>
@@ -40,7 +40,7 @@ subtitle: Gauger Chart
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:50%">
 	    <iframe class="article-look-content"
-	    src="http://gallery.echartsjs.com/view-lite.html?cid=gauge-car">
+	    src="https://gallery.echartsjs.com/view-lite.html?cid=gauge-car">
 	    </iframe>
 	</div>
 </div>
@@ -51,7 +51,7 @@ subtitle: Gauger Chart
 
 <div class="more-charts-example">
 	<div class="charts-example-one">
-		<a href="http://gallery.echartsjs.com/view-lite.html?cid=xSkY1CFYgZ">
+		<a href="https://gallery.echartsjs.com/view-lite.html?cid=xSkY1CFYgZ">
 			<div class="example-look-outside">
 				<div class="article-look-inside" style="padding-bottom:81.90%">
 				    <img class="article-look-content" src="./1gauge.png">

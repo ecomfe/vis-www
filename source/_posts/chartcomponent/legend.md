@@ -67,9 +67,9 @@ title: 图例
 
 <div class="article-look-outside">
 	<div class="article-look-inside" style="padding-bottom:65%">
-	    <iframe class="article-look-content" 
-	    src="http://www.echartsjs.com/gallery/view.html?c=dynamic-data">
-	    </iframe>  
+	    <iframe class="article-look-content"
+	    src="https://www.echartsjs.com/gallery/view.html?c=dynamic-data">
+	    </iframe>
 	</div>
 </div>
 
